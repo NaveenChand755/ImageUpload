@@ -32,4 +32,4 @@ app.post('/image-upload', (req, res) => {
     .catch((err) => res.status(400).json(err))
 })
 
-app.listen(process.env.PORT || 8080, () => console.log('👍'))
+app.listen(process.env.PORT || 8000, () => console.log('👍'))
