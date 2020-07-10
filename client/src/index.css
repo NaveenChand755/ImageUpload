@@ -87,3 +87,7 @@ img {
   padding: 10px;
   border: 2px dashed #167bff;
 }
+
+.help-block{
+  color: red;
+}

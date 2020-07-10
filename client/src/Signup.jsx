@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import history from './History';
 
 export default class SignUp extends Component {
     render() {
@@ -26,7 +27,7 @@ export default class SignUp extends Component {
                     <input type="password" className="form-control" placeholder="Enter password" />
                 </div>
 
-                <button type="submit" className="btn btn-primary btn-block">Sign Up</button>
+                <button type="submit" className="btn btn-primary btn-block" onClick={() => history.push('/sign-in')}>Sign Up</button>
                 <p className="forgot-password text-right">
                     Already registered <a href="#">sign in?</a>
                 </p>

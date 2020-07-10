@@ -7,8 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server"
   },
-  "author": "jesse heaslip",
-  "license": "MIT",
   "dependencies": {
     "cloudinary": "^1.11.0",
     "cors": "^2.8.4",
